@@ -1,3 +1,4 @@
+#Programa para contabilizar numeros pares, impares, positivos e negativos
 par=0
 impar=0
 positivo=0
