@@ -1,7 +1,7 @@
 par=0
 impar=0
 positivo=0
-negativo=-1
+negativo=0
 
 for i in range(5):
     num = int(input())
