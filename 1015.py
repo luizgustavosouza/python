@@ -13,8 +13,8 @@ coord2=input().split()
 x2=float(coord2[0])
 y2=float(coord2[1])
 
-coord1 = (x2-x1)
-coord2 = (y2-y1)
+coord1 = (x2-x1)**2
+coord2 = (y2-y1)**2
 
 distancia= sqrt(coord1+coord2)
 
