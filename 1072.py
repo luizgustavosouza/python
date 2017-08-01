@@ -1,4 +1,4 @@
-#1072 URI ONLINE JUDGE
+#1072 - URI ONLINE JUDGE
 n = int(input())
 inside = 0
 outside = 0
