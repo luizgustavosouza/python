@@ -1,12 +1,17 @@
 x = int(input())
 y = int(input())
-soma = []
+soma = []*0
 if x == y:
-    print('0')
-for i in range(x,y,1) or range(y,x,1):
+    total = 0
+for i in range(x,y) or range(y+1,x):
     if i % 2 != 0:
-        print(i)
-        #soma[i]=i
-print(soma)
+        soma.append(i)
+total = sum(soma)
+print(total)
+
+
+
+
+
 
 
