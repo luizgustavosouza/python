@@ -9,6 +9,7 @@ def listaN(elementos,qtd,min,max):
 
 # Programa Principal
 
+#Obtendo valores
 qtdNumeros = int(input("Qauantos valores devem conter na lista ? "))
 minimo = int(input("Informe o menor valor da faixa: "))
 maximo = int(input("Informe o maior valor da faixa: "))
