@@ -21,10 +21,13 @@ elementos = []
 qtd=int(input('Informe a quantidade de elementos na lista: '))
 mini=int(input('Informe o menor valor da faixa: '))
 maxi=int(input('Informe o maior valor da faixa: '))
-
+inception = int(input('Informe o novo valor  ser inserido no inicio da lista: '))
 listaN(elementos,qtd,mini,maxi)
-print(elementos)
 
+print("Lista completa: ", elementos)
+print("Primeiro elemento:")
 car(elementos)
+print("Excluindo o Primeiro elemento:")
 cdr(elementos)
-cons(90,elementos)
+print("Inserindo o elemento informado:")
+cons(inception,elementos)
