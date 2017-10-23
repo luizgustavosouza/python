@@ -1,4 +1,4 @@
-#Escrevendo em arquivos de texto
+#Escrevendo em um glorioso arquivos de texto
 
 dados=open("escreva.txt", "w")
 
