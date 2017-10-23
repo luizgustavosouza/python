@@ -23,3 +23,15 @@ outraLinha=outroDado.readline()
 for i in outroDado:
     print(outraLinha, end="")
 outroDado.close()
+
+print(end="")
+
+maisumArq=input("Digite o nome de mais um maldito arquivo: ")
+maisumDado=open(maisumArq, "r")
+maisumaLinha=maisumDado.readlines()
+
+for i in maisumaLinha:
+    print(maisumaLinha, end="")
+maisumDado.close()
+
+
