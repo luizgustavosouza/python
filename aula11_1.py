@@ -12,3 +12,7 @@ for i in range(4):
 for chave,valor in time.items():
     print(chave,":",valor)
 
+print()
+#Com valores aleatórios
+for chave in sorted(time):
+    print(chave,":",time[chave])
