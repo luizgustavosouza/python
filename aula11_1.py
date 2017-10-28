@@ -2,7 +2,7 @@
 
 time=dict()  #também pode ser feito time={}
 qtdIntegrantes=int(input("Digite a quantidade de integrantes no time:  "))
-for i in range(4):
+for i in range(qtdIntegrantes):
     nome=input("Digite o nome do intgrante: ")
     especialidade=input("Digite a especialidade do "+nome+": " )
     time[nome]=especialidade
