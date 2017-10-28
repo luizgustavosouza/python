@@ -8,7 +8,7 @@ infraDBA=set()
 infraNTW=set()
 infraMGM=set()
 
-gestor="Ygor Moretti"
+gestor=input("Digite o nome do Gestor")
 
 for i in range(qtdInfraDC):
     nome=input("Digite o nome do analista de data center: ")
